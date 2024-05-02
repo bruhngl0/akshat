@@ -1,0 +1,13 @@
+.poster{
+    background-image: url("../../public/ad.png");
+    background-size:cover;
+    background-position: center;
+    height: 90vh;
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 10rem;
+    border: solid 2px silver;
+}

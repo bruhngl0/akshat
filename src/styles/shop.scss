@@ -1,0 +1,28 @@
+.shop {
+    margin-top: 10rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .shop-one,
+  .shop-two {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .shop-one img,
+  .shop-two img {
+    width: 250px;
+    margin: 30px;
+    transition: all 0.3s ease; /* Add transition effect */
+  }
+  
+  .shop-one img:hover,
+  .shop-two img:hover {
+    transform: scale(1.1); /* Make images bigger on hover */
+    box-shadow: 0 0 10px 10px rgb(192, 192, 192, 0.4); /* Add silver box shadow on hover */
+  }
+  

@@ -1,0 +1,24 @@
+import React from 'react'
+
+const Hero = () => {
+  return (
+    <div className='hero'>
+         <div className='hero-one'>
+           <h1>LIVE THAT SILVER LIFE </h1>
+
+           <p>Find jewellery for each and every occassion and dazzle ypur style</p>
+         </div>
+
+
+         <div className='hero-two'>
+            <p>Best-Selling Products</p>
+            <img src= "asset2.png"></img>
+            <img src = "asset3.png"></img>
+            <img src = "asset2.png"></img>
+
+         </div>
+    </div>
+  )
+}
+
+export default Hero
