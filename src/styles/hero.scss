@@ -11,6 +11,8 @@
     margin-top: 2rem;
     color: rgb(255, 255, 255);
     border: 2px solid silver;
+    border-radius: 32px;
+  
   }
   
   .hero-one {
@@ -46,6 +48,7 @@
       width: 100px;
       margin-right: 10px;
       transition: all 0.3s ease; /* Add transition effect */
+      border-radius: 14px;
     }
   
     > img:hover {

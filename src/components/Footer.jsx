@@ -71,7 +71,7 @@ const Footer = () => {
           <FaWhatsapp />
         </a>
 
-        <a href='https://www.instagram.com/'> {/* Replace 'https://www.instagram.com/' with your Instagram URL */}
+        <a href='https://x.com/shinesilver_925?s=11'> {/* Replace 'https://www.instagram.com/' with your Instagram URL */}
           <FaSquareXTwitter /> 
         </a>
       </div>

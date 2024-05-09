@@ -1,12 +1,10 @@
 
 
-import Header from './components/Header'
-import Hero from './components/Hero'
-import Shop from './components/Shop'
-import Slider from './components/Slider'
-import Poster from './components/Poster'
-import Footer from './components/Footer'
 
+import Landing from './components/Landing'
+import Home from './components/Home';
+
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 import '../src/styles/Header.scss'
 import '../src/styles/hero.scss'
@@ -26,13 +24,17 @@ function App() {
 
   return (
     <>
-   <Header />
-   <Hero />  
-   <Shop />
-   <Slider />
-   <Shop />
-   <Poster />
-   <Footer />
+
+
+<BrowserRouter>
+      
+      <Routes>
+        <Route path="/" element={< Landing/>} />
+        <Route path="/home" element={<Home />} />
+      </Routes>
+    
+  </BrowserRouter>
+   
     </>
   )
 }

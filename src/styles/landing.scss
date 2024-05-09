@@ -1,0 +1,71 @@
+.landing {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Added to make the landing component fill the viewport */
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gif {
+    max-width: 20rem;
+    height: auto;
+}
+
+
+:root{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.shine{
+    width: 12rem;
+   
+    margin-left: 1.5rem;
+}
+
+
+    .land-btn {
+        margin-top: 5rem;
+        border: 2px solid transparent; /* Set border color to transparent */
+        color: silver;
+        margin-left: 1rem;
+        background-color: transparent; /* Set background color to transparent */
+        padding: 10px 20px; /* Add padding to improve button appearance */
+        font-size: 16px; /* Adjust font size as needed */
+        cursor: pointer; /* Change cursor to pointer on hover */
+        outline: none; /* Remove default focus outline */
+        transition: all 0.3s ease; /* Add transition for smooth effect */
+        color: silver;
+         font-weight: bolder;
+        animation: slideFromBottom 5s forwards; /* Apply animation */
+        font-size: 1.5rem;
+        text-decoration: none;
+        border-color: silver; /* Change border color on hover */
+        color: white; /* Change text color on hover */
+        box-shadow: 0 0 10px silver; /* Add glow effect on hover */
+        }
+    
+   
+
+    @keyframes slideFromBottom {
+        0% {
+            opacity: 0;
+            transform: translateY(100%);
+        }
+        100% {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+
+    

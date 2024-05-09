@@ -20,7 +20,7 @@ import slide_image_7 from '../../public/model4.jpg';
 const Slider = () => {
   return (
     <div className="container">
-      <h1 className="heading">Flower Gallery</h1>
+      <h1 className="heading">Product Showcase</h1>
       <Swiper
         effect={'coverflow'}
         grabCursor={true}
