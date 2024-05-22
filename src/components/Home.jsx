@@ -5,6 +5,7 @@ import Slider from './Slider'
 import Poster from './Poster'
 import Header from './Header'
 import Footer from './Footer'
+import ShopOne from './Shop0ne'
 
 import '../styles/Header.scss'
 import '../styles/hero.scss'
@@ -25,7 +26,7 @@ const Home = () => {
      <Hero />  
      <Shop />
      <Slider />
-     <Shop />
+     <ShopOne />
      <Poster />
      <Footer />
     </div>

@@ -14,7 +14,7 @@ const Footer = () => {
         <h1>DISCOVER JWELLERY</h1>
         <ul>
           <li><a href="#">Pendant Sets</a></li>
-          <li><a href="#">Necklace</a></li>
+          <li><a href="#">Necklace Sets</a></li>
         </ul>
       </div>
 
@@ -56,7 +56,7 @@ const Footer = () => {
         <div className='location'>
         <FaLocationArrow />
         <span>
-          <a href="geo:12.9716,77.5946?q=Vijay Nagar, Bangalore 560040">Bangalore, Vijayanagar, 560040</a>
+          <a href="geo:12.9716,77.5946?q=Vijay Nagar, Bangalore 560040">Bangalore, 560040</a>
         </span>
       </div>
 

@@ -6,16 +6,7 @@ import Home from './components/Home';
 
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
-import '../src/styles/Header.scss'
-import '../src/styles/hero.scss'
-import '../src/styles/shop.scss'
-import '../src/styles/poster.scss'
-import '../src/styles/footer.scss'
 
-import 'swiper/css';
-import 'swiper/css/effect-coverflow';
-import 'swiper/css/pagination';
-import 'swiper/css/navigation';
 
 
 

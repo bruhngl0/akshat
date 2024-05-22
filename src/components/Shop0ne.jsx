@@ -1,10 +1,10 @@
 import React from 'react'
 
-const Shop = () => {
+const ShopOne = () => {
   return (
     <div className='shop'>
 
-     <h1>PENDANT SETS</h1>
+     <h1>NECKLACE SETS</h1>
       <div className='shop-one'> 
         <img src= "asset3.png"></img>
         <img src = "asset3.png"></img>
@@ -22,4 +22,4 @@ const Shop = () => {
   )
 }
 
-export default Shop
+export default ShopOne

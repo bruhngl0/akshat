@@ -46,7 +46,7 @@
         transition: all 0.3s ease; /* Add transition for smooth effect */
         color: silver;
          font-weight: bolder;
-        animation: slideFromBottom 5s forwards; /* Apply animation */
+        animation: slideFromBottom  3s ease forwards; /* Apply animation */
         font-size: 1.5rem;
         text-decoration: none;
         border-color: silver; /* Change border color on hover */
@@ -59,11 +59,11 @@
     @keyframes slideFromBottom {
         0% {
             opacity: 0;
-            transform: translateY(100%);
+            transform: scale(0);
         }
         100% {
             opacity: 1;
-            transform: translateY(0);
+            transform: scale(1);
         }
     }
 
