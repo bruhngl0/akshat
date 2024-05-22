@@ -12,8 +12,8 @@ function Landing() {
             </div>
         <img src = "shine.png" className='shine'></img>
             <button className='land-btn'>
-                <Link to = "/" className='Coming Soon'>
-                 WEB-SHOP
+                <Link to = "/" className='webshop'>
+                 COMING SOON
                 </Link>
             </button>
         </div>
