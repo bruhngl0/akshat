@@ -69,3 +69,36 @@
 
 
     
+    @media only screen and (max-width: 430px) {
+
+        .gif {
+            max-width: 13rem;
+            height: auto;
+        }
+       .shine{
+           width: 10rem;
+   
+          margin-left: 1.5rem;
+        }
+
+        .land-btn {
+            margin-top: 5rem;
+            border: 2px solid transparent; /* Set border color to transparent */
+            color: silver;
+            margin-left: 0.8rem;
+            background-color: transparent; /* Set background color to transparent */
+            padding: 10px 20px; /* Add padding to improve button appearance */
+            font-size: 16px; /* Adjust font size as needed */
+            cursor: pointer; /* Change cursor to pointer on hover */
+            outline: none; /* Remove default focus outline */
+            transition: all 0.3s ease; /* Add transition for smooth effect */
+            color: silver;
+             font-weight: bolder;
+            animation: slideFromBottom  3s ease forwards; /* Apply animation */
+            font-size: 0.8rem;
+            text-decoration: none;
+            border-color: silver; /* Change border color on hover */
+            color: white; /* Change text color on hover */
+            box-shadow: 0 0 10px silver; /* Add glow effect on hover */
+            }
+    }
