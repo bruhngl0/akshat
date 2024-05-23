@@ -12,10 +12,11 @@ const Hero = () => {
 
          <div className='hero-two'>
             <p>Best-Selling Products</p>
+            <div className='hero-image-container'>
             <img src= "asset2.png"></img>
             <img src = "asset3.png"></img>
             <img src = "asset2.png"></img>
-
+          </div>
          </div>
     </div>
   )

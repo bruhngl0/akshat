@@ -8,7 +8,7 @@
     justify-content: flex-start;
     align-items: center;
     margin: auto;
-    margin-top: 2rem;
+    margin-top: 0rem;
     color: rgb(255, 255, 255);
     border: 2px solid silver;
     border-radius: 32px;
@@ -36,6 +36,8 @@
   
   .hero-two {
     margin-left: 10rem;
+    display: flex;
+    flex-direction: column;
   
     > p {
       display: flex;
@@ -44,16 +46,111 @@
       font-size: 20px;
     }
   
-    > img {
-      width: 100px;
-      margin-right: 10px;
-      transition: all 0.3s ease; /* Add transition effect */
-      border-radius: 14px;
-    }
+    
   
-    > img:hover {
-      box-shadow: 0 0 10px 10px rgba(192, 192, 192, 0.5); /* Add blue shadow on hover */
-      transform: scale(1.25); /* Slightly increase size on hover */
+    
+
+    .hero-image-container{
+      display: flex;
+      flex-direction: row;
+
+      >img {
+        width: 100px;
+        margin-right: 10px;
+        transition: all 0.3s ease; /* Add transition effect */
+        border-radius: 14px;
+      }
+
+      >img:hover {
+        box-shadow: 0 0 10px 10px rgba(192, 192, 192, 0.5); /* Add blue shadow on hover */
+        transform: scale(1.25); /* Slightly increase size on hover */
+      }
     }
   }
   
+
+  @media only screen and (max-width: 430px) {
+    .hero {
+      background-image: url("../../public/newHero.png");
+      background-size: cover;
+      background-position: center;
+      height: 50vh;
+      width: 95vw;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      margin: 0px;
+      margin-top: 3rem;
+      color: rgb(255, 255, 255);
+      border: 1px solid silver;
+      border-radius: 14px;
+    
+    }
+   
+
+    .hero-one {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start; /* Align items to the left */
+      justify-content: flex-start;
+      width: 50%;
+      
+      margin-top: 100px;
+      margin-right: 200px;
+    
+      > h1 {
+        width: 150px;
+        font-size: 20px;
+        align-self: flex-start;
+        
+      }
+    
+      > p {
+        font-size: 20px;
+        width: 400px;
+        color: rgb(174, 212, 251);
+        display: none;
+      }
+    }
+    
+    .hero-two {
+      margin-left: 0rem;
+      display: flex;
+      flex-direction: column;
+    
+      margin-bottom: 20px;
+      margin-right: 40px;
+      > p {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 15px;
+        margin-right: 160px;
+      }
+      .hero-image-container{
+        display: flex;
+        flex-direction: row;
+   
+  
+        >img{
+          width: 60px;
+          margin-right: 10px;
+          transition: all 0.3s ease; /* Add transition effect */
+          border-radius: 6px;
+        }
+  
+        > img:hover {
+          box-shadow: 0 0 10px 10px rgba(192, 192, 192, 0.5); /* Add blue shadow on hover */
+          transform: scale(1.25); /* Slightly increase size on hover */
+        }
+      
+    }
+
+    
+    }
+}
+
+
+
+

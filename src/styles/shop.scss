@@ -4,6 +4,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    width: 100%;
   }
   
   .shop-one,
@@ -27,3 +28,37 @@
     box-shadow: 0 0 10px 10px rgb(192, 192, 192, 0.4); /* Add silver box shadow on hover */
   }
   
+
+  @media only screen and (max-width: 450px) {
+   
+    .shop {
+      margin-top: 5rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+
+      >h1{
+        font-size: 20px;
+      }
+    }
+
+     
+  .shop-one,
+  .shop-two {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+   
+  }
+  
+  .shop-one img,
+  .shop-two img {
+    width: 100px;
+    margin: 10px;
+    transition: all 0.3s ease; /* Add transition effect */
+    border-radius: 10px;
+  }
+}
