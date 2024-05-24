@@ -73,15 +73,16 @@
 
   @media only screen and (max-width: 430px) {
     .hero {
-      background-image: url("../../public/newbg.png");
+      background-image: url("../../public/newbgo.png");
       background-size: cover;
       background-position: center;
-      height: 50vh;
+      height: 70vh;
       width: 95%;
       display: flex;
       flex-direction: column;
       justify-content: space-between;
       align-items: center;
+    
       margin: 0 auto;
       padding: 0px;
       margin-top: 3rem;
@@ -91,23 +92,32 @@
     }
   
     .hero-one {
-      width: 100%; /* Occupy full width */
-      margin: 20px 0; /* Adjust margin */
-      text-align: center; /* Center text */
-      padding-top: 5rem;
+      width: 70%; /* Occupy full width */
+      margin-top: 70px ; /* Adjust margin */
+      text-align: left; /* Center text */
+      margin-right: 30%;
+      display: flex;
+      flex-direction: column;
+      align-items: start;
+      justify-content: flex-start;
+
+      
+      
+      
+
+      >h1 {
+        font-size: 30px;
+        width: 50%;
+        
+      }
+      >p {
+        font-size: 20px;
+        width: 50%;
+        
+      }
     }
   
-    .hero-one h1 {
-      font-size: 20px;
-      width: 100%;
-      margin-bottom: 10px;
-    }
-  
-    .hero-one p {
-      font-size: 16px;
-      width: 80%; /* Adjust width */
-      margin: 0 auto; /* Center paragraph */
-    }
+ 
   
     .hero-two {
       width: 90%; /* Occupy full width */
