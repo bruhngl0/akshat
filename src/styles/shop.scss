@@ -10,8 +10,9 @@
   .shop-one,
   .shop-two {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
+    
   }
   
   .shop-one img,
@@ -29,8 +30,7 @@
   }
   
 
-  @media only screen and (max-width: 450px) {
-   
+  @media only screen and (max-width: 430px) {
     .shop {
       margin-top: 5rem;
       display: flex;
@@ -38,27 +38,27 @@
       align-items: center;
       justify-content: center;
       width: 100%;
-
-      >h1{
+  
+      > h1 {
         font-size: 20px;
       }
     }
-
-     
-  .shop-one,
-  .shop-two {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-
-   
+  
+    .shop-one,
+    .shop-two {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+    }
+  
+    .shop-one img,
+    .shop-two img {
+      width: 90px; /* Calculate image width dynamically */
+      max-width: 100px; /* Limit maximum width */
+      margin: 10px;
+      transition: all 0.3s ease; /* Add transition effect */
+      border-radius: 10px;
+    }
   }
   
-  .shop-one img,
-  .shop-two img {
-    width: 100px;
-    margin: 10px;
-    transition: all 0.3s ease; /* Add transition effect */
-    border-radius: 10px;
-  }
-}
