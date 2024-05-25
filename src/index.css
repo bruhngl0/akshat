@@ -24,7 +24,8 @@ a:hover {
 
 body {
   width: 100%;
-  background-image: url("../public/pp.png");
+  background-image: url("../public/aksht.jpg");
+  background-size: cover;
 
   
 }
