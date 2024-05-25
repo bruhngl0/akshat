@@ -10,13 +10,13 @@ import 'swiper/css/navigation';
 
 import { EffectCoverflow, Pagination, Navigation } from 'swiper/modules';
 
-import slide_image_1 from '../../public/model2.jpg';
-import slide_image_2 from '../../public/model1.jpg';
-import slide_image_3 from '../../public/model3.jpg';
-import slide_image_4 from '../../public/model4.jpg';
-import slide_image_5 from '../../public/model5.jpg';
-import slide_image_6 from '../../public/model6.jpg';
-import slide_image_7 from '../../public/model4.jpg';
+import slide_image_1 from '../../public/modell1.jpg';
+import slide_image_2 from '../../public/modell4.jpg';
+import slide_image_3 from '../../public/modell3.jpg';
+import slide_image_4 from '../../public/modell9.jpg';
+import slide_image_5 from '../../public/modell5.jpg';
+import slide_image_6 from '../../public/modell7.jpg';
+import slide_image_7 from '../../public/modell8.jpg';
 
 const Slider = () => {
   return (
