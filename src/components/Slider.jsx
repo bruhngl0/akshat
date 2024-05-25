@@ -1,12 +1,10 @@
-import React from 'react'
+import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
-
 
 import 'swiper/css';
 import 'swiper/css/effect-coverflow';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
-
 
 import { EffectCoverflow, Pagination, Navigation } from 'swiper/modules';
 
@@ -41,7 +39,7 @@ const Slider = () => {
           clickable: true,
         }}
         modules={[EffectCoverflow, Pagination, Navigation]}
-        autoplay = {true}
+        autoplay={true}
         className="swiper_container"
       >
         <SwiperSlide>
@@ -77,7 +75,8 @@ const Slider = () => {
         </div>
       </Swiper>
     </div>
-  )
-}
+  );
+};
 
-export default Slider
+export default Slider;
+
