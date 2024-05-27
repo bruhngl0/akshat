@@ -23,7 +23,7 @@ const Home = () => {
   return (
     <div>
      <Header />
-     <Hero />  
+     
      <Shop />
      <Slider />
      <ShopOne />
