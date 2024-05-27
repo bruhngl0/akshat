@@ -1,10 +1,40 @@
 .shop {
-    margin-top: 10rem;
+    margin-top:10rem;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     width: 100%;
+    
+
+  }
+
+  .shop a {
+    text-decoration: none; /* Remove default underline */
+    color: inherit; /* Inherit the text color */
+  }
+  
+  .shop a:hover {
+    text-decoration: underline; /* Underline text on hover */
+    color: silver;
+  }
+  .shop-neck {
+    margin-top:2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .shop-neck a {
+    text-decoration: none; /* Remove default underline */
+    color: inherit; /* Inherit the text color */
+  }
+  
+  .shop-neck a:hover {
+    text-decoration: underline; /* Underline text on hover */
+    color: silver;
   }
   
   .shop-one,
@@ -14,6 +44,8 @@
     align-items: center;
     
   }
+
+  
   
   .shop-one img,
   .shop-two img {
@@ -21,6 +53,7 @@
     margin: 30px;
     transition: all 0.3s ease; /* Add transition effect */
     border-radius: 36px;
+    border: 2px solid silver;
   }
   
   .shop-one img:hover,
@@ -32,14 +65,14 @@
 
   @media only screen and (max-width: 430px) {
     .shop {
-      margin-top: 1rem;
+      margin-top: 8rem;
       display: flex;
       flex-direction: column;
       align-items: center;
       justify-content: center;
       width: 100%;
   
-      > h1 {
+      > a h1 {
         font-size: 20px;
       }
     }
@@ -60,5 +93,41 @@
       transition: all 0.3s ease; /* Add transition effect */
       border-radius: 10px;
     }
+
+    .shop-neck {
+      margin-top:2rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+  
+      > a h1 {
+        font-size: 20px;
+      }
+    }
+  
+    .shop-one,
+    .shop-two {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+    }
+  
+    .shop-one img,
+    .shop-two img {
+      width: 90px; /* Calculate image width dynamically */
+      max-width: 100px; /* Limit maximum width */
+      margin: 10px;
+      transition: all 0.3s ease; /* Add transition effect */
+      border-radius: 10px;
+     
+    }
+
+
+    
   }
+  
+
   

@@ -43,7 +43,9 @@ const Slider = () => {
         className="swiper_container"
       >
         <SwiperSlide>
-          <img src={slide_image_1} alt="slide_image" />
+          <a href= "https://www.facebook.com">
+          <img src={slide_image_1} alt="slide_image" href= "www.facebook.com" />
+          </a>
         </SwiperSlide>
         <SwiperSlide>
           <img src={slide_image_2} alt="slide_image" />

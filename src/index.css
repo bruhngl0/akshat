@@ -24,9 +24,12 @@ a:hover {
 
 body {
   width: 100%;
-  background-image: url("../public/aksht.jpg");
+  background-image: url("../public/srikarbg.png");
   background-size: cover;
-
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+  margin-block-start: 0;
+  margin-block-end: 0;
   
 }
 
@@ -72,6 +75,7 @@ button:focus-visible {
   max-width: 120rem;
   padding: 4rem 1rem;
   margin: 0 auto;
+  margin-top: 7rem;
 }
 
 .heading {

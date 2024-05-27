@@ -77,38 +77,46 @@
       background-size: cover;
       background-position: center;
       height: 70vh;
-      width: 95%;
+      width: 100%;
       display: flex;
       flex-direction: column;
-      justify-content: space-between;
+      justify-content: flex-end;
       align-items: center;
     
       margin: 0 auto;
       padding: 0px;
       margin-top: 1.5rem;
       color: rgb(255, 255, 255);
-      border: 1px solid silver;
+      border: none;
       border-radius: 14px;
     }
   
     .hero-one {
-      width: 70%; /* Occupy full width */
-      margin-top: 70px ; /* Adjust margin */
-      text-align: left; /* Center text */
-      margin-right: 30%;
+      width: 100%; /* Occupy full width */
+      height: 2rem           ; /* Adjust margin */
+      text-align: center; /* Center text */
+      margin: 0;
       display: flex;
       flex-direction: column;
-      align-items: start;
-      justify-content: flex-start;
+      align-items: center;
+      justify-content: center;
+      background-color: rgb(35, 37, 37);
+      
 
       
       
       
 
       >h1 {
-        font-size: 30px;
-        width: 50%;
+        display: flex;
+        font-size: 20px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: rgb(95, 131, 131);
         
+      
       }
       >p {
         font-size: 20px;
