@@ -78,7 +78,7 @@
       flex-direction: column;
       align-items: center;
       justify-content: center;
-      width: 100%;
+      width: 98vw;
       
       > a h1 {
         font-size: 30px;
@@ -102,7 +102,8 @@
                    /* Limit maximum width */
       margin: 20px;
       transition: all 0.3s ease; /* Add transition effect */
-      border-radius: 10px;
+      border-radius: 14px;
+      border: 1px solid silver;
     }
 
     .shop-neck {
@@ -132,7 +133,7 @@
        /* Limit maximum width */
       margin: 10px;
       transition: all 0.3s ease; /* Add transition effect */
-      border-radius: 10px;
+      border-radius: 22px;
      
     }
 

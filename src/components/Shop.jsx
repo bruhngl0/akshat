@@ -9,17 +9,17 @@ const Shop = () => {
      <h1>PENDANT SETS</h1>
      </a>
       <div className='shop-one'> 
-        <img src= "shades.png"></img>
-        <img src = "shades.png"></img>
-        <img src = "shades.png"></img>
+        <img src= "shades10.png"></img>
+        <img src = "shades11.png"></img>
+        <img src = "shades12.png"></img>
 
       </div>
 
 
       <div className='shop-two'> 
-         <img src = "shades.png"></img>
-        <img src = "shades.png"></img>
-        <img src = "shades.png"></img>  
+         <img src = "shades13.png"></img>
+        <img src = "shades14.png"></img>
+        <img src = "shades15.png"></img>  
       </div>
     </div>
 
@@ -30,22 +30,22 @@ const Shop = () => {
 <h1>PENDANT SETS</h1>
 </a>
  <div className='shop-one'> 
-   <img src= "shades.png"></img>
-   <img src = "shades.png"></img>
+   <img src= "shades10.png"></img>
+   <img src = "shades11.png"></img>
  
 
  </div>
 
 
  <div className='shop-two'> 
-    <img src = "shades.png"></img>
-   <img src = "shades.png"></img>
+    <img src = "shades12.png"></img>
+   <img src = "shades13.png"></img>
   
  </div>
 
  <div className='shop-two'> 
-    <img src = "shades.png"></img>
-   <img src = "shades.png"></img>
+    <img src = "shades14.png"></img>
+   <img src = "shades15.png"></img>
     
  </div>
 </div>
