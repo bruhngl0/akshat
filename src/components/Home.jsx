@@ -24,8 +24,9 @@ const Home = () => {
     <div>
      <Header />
      <Hero />  
-     <Shop />
      <Slider />
+     <Shop />
+   
      <ShopOne />
      <Poster />
      <Footer />
