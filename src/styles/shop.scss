@@ -129,11 +129,11 @@
   
     .shop-one img,
     .shop-two img {
-      width: 10rem; /* Calculate image width dynamically */
+      width: 40%; /* Calculate image width dynamically */
        /* Limit maximum width */
-      margin: 10px;
+      margin: 7px 7px;
       transition: all 0.3s ease; /* Add transition effect */
-      border-radius: 22px;
+      border-radius: 12px;
      
     }
 
