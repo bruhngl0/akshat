@@ -24,7 +24,7 @@ a:hover {
 
 body {
   width: 100%;
-  background-image: url("../public/srikarbg.png");
+  background-color: #111111;
   background-size: cover;
   margin-inline-start: 0;
   margin-inline-end: 0;
