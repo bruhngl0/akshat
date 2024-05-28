@@ -1,7 +1,7 @@
 
 
 .hero {
-    background-image: url("../../public/redo-hero-one.png");
+    background-image: url("../../public/kancut.png");
     background-size: cover;
     background-position: center;
     height: 450.5px;
@@ -77,7 +77,8 @@
       background-size: cover;
       background-position: center;
       height: 70vh;
-      width: 100%;
+      width: 90vw;
+     
       display: flex;
       flex-direction: column;
       justify-content: flex-end;
@@ -87,7 +88,7 @@
       padding: 0px;
       margin-top: 1.5rem;
       color: rgb(255, 255, 255);
-      border: none;
+      border: 1px solid silver;
       border-radius: 14px;
     }
   
