@@ -1,0 +1,127 @@
+.footerMobile{
+    display: none;
+}
+
+
+@media only screen and (max-width: 450px) { 
+
+    .footerMobile{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        height: 100%;
+     
+    }
+
+    
+
+    .footer-mobile-nav{
+        display: flex;
+        flex-direction: row;
+      
+        
+        >ul{
+            display: flex;
+            flex-direction: row;
+            gap: 10px;
+            list-style-type: none;
+            font-size: 11px;
+        }
+    }
+}
+
+.copyright{
+    font-size: 12px;
+  }
+
+.footer-mobile {
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .footer-section-mobile {
+
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .dots {
+    cursor: pointer;
+    width: 100vw;
+    font-size: 50px;
+    border-bottom: 1px solid rgb(74, 71, 71);
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+   
+  }
+  
+  .additional-links {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid rgb(82, 80, 80);
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom:20px ;
+
+    >h1{
+        font-size: 20px;
+        color: silver;
+    }
+  }
+  
+  .additional-links a {
+    color: silver;
+    text-decoration: none;
+    margin-bottom: 5px;
+    font-size: small;
+  }
+  
+  .additional-links a:hover {
+    text-decoration: underline;
+    
+  }
+  
+  .social-media-section-mobile {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .social-media-section-mobile a {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  .social-media-section-mobile img {
+    width: 24px;
+    height: 24px;
+  }
+  
+  .socialmedia-Mobile{
+ 
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+
+  }
+
+  .icons{
+    width: 30px;
+    height: 40px;
+    padding: 10px;
+  }

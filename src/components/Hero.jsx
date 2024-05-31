@@ -6,7 +6,7 @@ const Hero = () => {
          <div className='hero-one'>
            <h1>LIVE THAT SILVER LIFE </h1>
 
-           <p>Find jewellery for each and every occassion and dazzle ypur style</p>
+           <p>Find jewellery for each and every occassion and dazzle your style</p>
          </div>
 
 

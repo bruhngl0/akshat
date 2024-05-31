@@ -6,12 +6,15 @@ import Poster from './Poster'
 import Header from './Header'
 import Footer from './Footer'
 import ShopOne from './Shop0ne'
+import MobileFooter from './MobileFooter'
+
 
 import '../styles/Header.scss'
 import '../styles/hero.scss'
 import '../styles/shop.scss'
 import '../styles/poster.scss'
 import '../styles/footer.scss'
+import '../styles/mobileFooter.scss'
 
 import 'swiper/css';
 import 'swiper/css/effect-coverflow';
@@ -31,6 +34,8 @@ const Home = () => {
      <ShopOne />
      <Poster />
      <Footer />
+   
+    <MobileFooter />
     </div>
   )
 }
