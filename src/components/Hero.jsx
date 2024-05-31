@@ -13,9 +13,17 @@ const Hero = () => {
          <div className='hero-two'>
             <p>Best-Selling Products</p>
             <div className='hero-image-container'>
-            <img src= "asset2.png"></img>
-            <img src = "asset3.png"></img>
-            <img src = "asset2.png"></img>
+            <a href="https://shop.shinesilver.store/products/35">
+             <img src= "best3.png" />
+             </a>
+
+             <a href="https://shop.shinesilver.store/products/28">
+            <img src = "best1.png"/>
+            </a>
+
+            <a href="https://shop.shinesilver.store/products/23">
+            <img src = "best2.png"/>
+            </a>
           </div>
          </div>
     </div>

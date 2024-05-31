@@ -47,6 +47,8 @@
       justify-content: center;
       align-items: center;
       font-size: 20px;
+
+      
     }
   
     
@@ -57,16 +59,17 @@
       display: flex;
       flex-direction: row;
 
-      >img {
+      >a img {
         width: 100px;
         margin-right: 10px;
         transition: all 0.3s ease; /* Add transition effect */
-        border-radius: 14px;
+        border-radius: 15px;
+        border: 1px solid silver;
       }
 
-      >img:hover {
+      >a img:hover {
         box-shadow: 0 0 10px 10px rgba(192, 192, 192, 0.5); /* Add blue shadow on hover */
-        transform: scale(1.25); /* Slightly increase size on hover */
+        transform: scale(1.1); /* Slightly increase size on hover */
       }
     }
   }
@@ -74,7 +77,7 @@
 
   @media only screen and (max-width: 430px) {
     .hero {
-      background-image: url("../../public/lki.png");
+      background-image: url("../../public/ballgamer.png");
       background-size: cover;
       background-position: center;
       height: 70vh;
@@ -102,7 +105,7 @@
       flex-direction: column;
       align-items: center;
       justify-content: center;
-      background-color: rgb(0, 0, 0);
+      
       
 
       
@@ -117,6 +120,7 @@
         align-items: center;
         justify-content: center;
         color: SILVER;
+        display: none;
         
       
       }
@@ -141,7 +145,7 @@
     }
   
     .hero-two p {
-      font-size: 15px;
+      font-size: 25px;
       margin-bottom: 10px;
     }
   
@@ -155,14 +159,14 @@
       align-items: center;
       width: inherit;
 
-      >img {
+      >a img {
         width: 80px;
-        margin: 10px;
+        margin: 8px;
         transition: all 0.3s ease; /* Add transition effect */
-        border-radius: 11px;
+        border-radius: 16px;
       }
 
-      >img:hover {
+      >a img:hover {
         box-shadow: 0 0 10px 10px rgba(192, 192, 192, 0.5); /* Add blue shadow on hover */
         transform: scale(1.25); /* Slightly increase size on hover */
       }
