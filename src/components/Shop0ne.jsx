@@ -27,7 +27,7 @@ const ShopOne = () => {
 <div className='shop-mobile'>
      
      <a href='https://www.facebook.com'>
-     <h1>PENDANT SETS</h1>
+     <h1>NECKLACE SETS</h1>
      </a>
       <div className='shop-one'> 
         <img src= "shades1.png"></img>
