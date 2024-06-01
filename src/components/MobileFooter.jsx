@@ -27,9 +27,9 @@ const MobileFooter = () => {
             <>
           <div className="additional-links">
             <h1>PRODUCTS</h1>
-            <a href="/shop/product1">Neclace Sets</a>
+            <a href="/shop/product1">Necklace Sets</a>
             <a href="/shop/product2">Pendant Sets</a>
-            <a href="/shop/product3">Catalouge</a>
+            <a href="/shop/product3">Catalog</a>
           
           </div>
             <div className="additional-links">
