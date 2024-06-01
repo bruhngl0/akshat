@@ -5,48 +5,70 @@ const Shop = () => {
     <>
     <div className='shop'>
      
-     <a href='https://www.facebook.com'>
+     <a href='https://shop.shinesilver.store/collections/pendant-sets'>
      <h1>PENDANT SETS</h1>
      </a>
       <div className='shop-one'> 
+        <a href= "https://shop.shinesilver.store/products/27">
         <img src= "shades10.png"></img>
-        <img src = "shades11.png"></img>
-        <img src = "shades12.png"></img>
+        </a>
 
+        <a href= "https://shop.shinesilver.store/products/32">
+        <img src = "shades11.png"></img>
+        </a>
+        <a href= "https://shop.shinesilver.store/products/26">
+        <img src = "shades12.png"></img>
+        </a>
       </div>
 
 
       <div className='shop-two'> 
-         <img src = "shades13.png"></img>
+      <a href= "https://shop.shinesilver.store/products/22">
+        <img src= "shades13.png"></img>
+        </a>
+
+        <a href= "https://shop.shinesilver.store/products/34">
         <img src = "shades14.png"></img>
-        <img src = "shades15.png"></img>  
+        </a>
+        <a href= "https://shop.shinesilver.store/products/31">
+        <img src = "shades15.png"></img>
+        </a>
       </div>
     </div>
 
 
 <div className='shop-mobile'>
      
-<a href='https://www.facebook.com'>
+<a href='https://shop.shinesilver.store/collections/pendant-sets'>
 <h1>PENDANT SETS</h1>
-</a>
- <div className='shop-one'> 
+  </a >
+   <div className='shop-one-mobile'> 
+   <a href="https://shop.shinesilver.store/products/27">
    <img src= "shades10.png"></img>
+   </a>
+   <a href="https://shop.shinesilver.store/products/32">
    <img src = "shades11.png"></img>
- 
+   </a>
 
  </div>
 
 
- <div className='shop-two'> 
+ <div className='shop-two-mobile'> 
+ <a href="https://shop.shinesilver.store/products/26">
     <img src = "shades12.png"></img>
+    </a>
+   <a href="https://shop.shinesilver.store/products/22">
    <img src = "shades13.png"></img>
-  
+  </a>
  </div>
 
- <div className='shop-two'> 
+ <div className='shop-two-mobile'> 
+ <a href="https://shop.shinesilver.store/products/34">
     <img src = "shades14.png"></img>
+    </a>
+    <a href="https://shop.shinesilver.store/products/31">
    <img src = "shades15.png"></img>
-    
+   </a>
  </div>
 </div>
 </>

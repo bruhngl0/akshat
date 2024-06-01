@@ -43,27 +43,39 @@ const Slider = () => {
         className="swiper_container"
       >
         <SwiperSlide>
-          <a href= "https://www.facebook.com">
+          <a href= "https://shop.shinesilver.store/products/white-floral-tear-drop-silver-pendant-set-1">
           <img src={slide_image_1} alt="slide_image" href= "www.facebook.com" />
           </a>
         </SwiperSlide>
         <SwiperSlide>
+        <a href= "https://shop.shinesilver.store/products/17">
           <img src={slide_image_2} alt="slide_image" />
+          </a> 
         </SwiperSlide>
         <SwiperSlide>
+        <a href= "https://shop.shinesilver.store/products/13">
           <img src={slide_image_3} alt="slide_image" />
+          </a>
         </SwiperSlide>
         <SwiperSlide>
+        <a href= "https://shop.shinesilver.store/products/spectrum-rainbow-silver-pendant-set">
           <img src={slide_image_4} alt="slide_image" />
+          </a>
         </SwiperSlide>
         <SwiperSlide>
+        <a href= "https://shop.shinesilver.store/products/18">
           <img src={slide_image_5} alt="slide_image" />
+          </a>
         </SwiperSlide>
         <SwiperSlide>
+        <a href= "https://shop.shinesilver.store/products/06">
           <img src={slide_image_6} alt="slide_image" />
+          </a>
         </SwiperSlide>
         <SwiperSlide>
+        <a href= "https://shop.shinesilver.store/products/14">
           <img src={slide_image_7} alt="slide_image" />
+          </a>
         </SwiperSlide>
 
         <div className="slider-controler">
