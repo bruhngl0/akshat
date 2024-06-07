@@ -8,7 +8,7 @@ function Landing() {
     const navigate = useNavigate()
 
     function homeNav(){
-       navigate('/home')
+       navigate('/')
     }
     return (
         <div className="landing">
