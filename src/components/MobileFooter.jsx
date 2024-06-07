@@ -34,8 +34,8 @@ const MobileFooter = () => {
           </div>
             <div className="additional-links">
             <h1>T&C</h1>
-            <a href="/shop/product1">Privacy Policy</a>
-            <a href="/shop/product2">Return & Exchange Policy</a>
+            <a href="https://shop.shinesilver.store/policies/terms-of-service">Privacy Policy</a>
+            <a href="https://shop.shinesilver.store/policies/refund-policy">Return & Exchange Policy</a>
           
           
           </div>

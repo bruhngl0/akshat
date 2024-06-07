@@ -28,13 +28,13 @@ const Footer = () => {
       <div className='three'>
         <h1>CUSTOMER CARE</h1>
         <ul>
-          <li><a href="#">Contact Us</a></li>
+       
           <li><a href="#">Shipping Policy</a></li>
-          <li><a href="#">Privacy Policy</a></li>
-          <li><a href="#">Returns & Exchange</a></li>
-          <li><a href="#">Cancellations Policy</a></li>
-          <li><a href="#">Terms & Conditions</a></li>
-          <li><a href="#">Bulk Order</a></li>
+          <li><a href="https://shop.shinesilver.store/policies/terms-of-service">Privacy Policy</a></li>
+          <li><a href="https://shop.shinesilver.store/policies/refund-policy">Returns & Exchange</a></li>
+         
+          <li><a href="https://shop.shinesilver.store/policies/terms-of-service">Terms & Conditions</a></li>
+          <li><a href="https://wa.me/918550022888">Bulk Order</a></li>
         </ul>
       </div>
 
@@ -43,7 +43,7 @@ const Footer = () => {
         
         <div className='phone'>
         <FaPhoneAlt />
-        <span> <a href= "tel:+918550022888">+91 8550022888 </a></span>
+        <span> <a href= "https://wa.me/918550022888">+91 8550022888 </a></span>
         </div>
 
         <div className='mail'>

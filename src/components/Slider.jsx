@@ -19,7 +19,9 @@ import slide_image_7 from '../../public/modell8.jpg';
 const Slider = () => {
   return (
     <div className="container">
+      <a href='https://shop.shinesilver.store/collections/all'>
       <h1 className="heading">PRODUCT SHOWCASE</h1>
+      </a>
       <Swiper
         effect={'coverflow'}
         grabCursor={true}
