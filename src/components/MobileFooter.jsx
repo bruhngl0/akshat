@@ -1,13 +1,10 @@
 import React from 'react'
 import { useState } from 'react';
-import {FaPhoneAlt} from 'react-icons/fa'
-import { FaLocationArrow } from "react-icons/fa6"
-import { FaSquareInstagram } from "react-icons/fa6";
-import { FaSquareWhatsapp } from "react-icons/fa6";
+
 import { FaWhatsapp } from "react-icons/fa6";
 import { FaInstagram } from 'react-icons/fa';
 import { FaXTwitter } from "react-icons/fa6";
-import { MdMailOutline } from "react-icons/md";
+
 import { FaFacebook } from 'react-icons/fa6';
 
 const MobileFooter = () => {
@@ -36,7 +33,7 @@ const MobileFooter = () => {
             <h1>T&C</h1>
             <a href="https://shop.shinesilver.store/policies/terms-of-service">Privacy Policy</a>
             <a href="https://shop.shinesilver.store/policies/refund-policy">Return & Exchange Policy</a>
-          
+            <a href="https://shop.shinesilver.store/policies/shipping-policy">Shipping Policy</a>
           
           </div>
           </>
