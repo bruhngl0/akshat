@@ -2,8 +2,8 @@ import React from 'react'
 
 const Poster = () => {
   return (
-    <>
-    <div className='poster'>
+    <section id= "abo">
+    <div className='poster' >
       <div className='poster-content'>
       <h1>EXQUISITE SILVER JEWELLERY.</h1>
       <h4>DISCOVER OUR STUNNING COLLECTION FEATURING THE BEST QUALITY ZIRCON STONES, PREMIUM RHODIUM POLISH, AND LUXURIOUS FRESHWATER PEARLS. EXPERIENCE UNMATCHED ELEGANCE AND QUALITY WITH SHINE SILVER.
@@ -21,7 +21,7 @@ const Poster = () => {
 
 </div>
 </div>
-</>
+</section>
   )
 }
 

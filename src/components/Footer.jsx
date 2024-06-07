@@ -21,7 +21,7 @@ const Footer = () => {
       <div className='two'>
         <h1>OUR COMPANY</h1>
         <ul>
-          <li><a href="#">About Us</a></li>
+          <li><a href="#abo">About Us</a></li>
         </ul>
       </div>
 
@@ -29,7 +29,7 @@ const Footer = () => {
         <h1>CUSTOMER CARE</h1>
         <ul>
        
-          <li><a href="#">Shipping Policy</a></li>
+          <li><a href="https://shop.shinesilver.store/policies/shipping-policy">Shipping Policy</a></li>
           <li><a href="https://shop.shinesilver.store/policies/terms-of-service">Privacy Policy</a></li>
           <li><a href="https://shop.shinesilver.store/policies/refund-policy">Returns & Exchange</a></li>
          
