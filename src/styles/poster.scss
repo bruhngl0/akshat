@@ -1,17 +1,38 @@
 .poster{
     background-image: url("../../public/ad.png");
-    background-size:cover;
+    background-size: cover;
     background-position: center;
     height: 90vh;
     width: 80vw;
     display: flex;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
     margin: auto;
     margin-top: 10rem;
     border: solid 2px silver;
     border-radius: 30px;
  
+}
+
+
+
+.poster-content{
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+   padding-left: 5rem;
+   color: silver;
+
+
+   >h1{
+    margin-bottom: 1em;
+   }
+}
+
+.poster-mobile-one{
+    display: none;
 }
 
 @media only screen and (max-width: 450px) {
@@ -30,6 +51,60 @@
         border: solid 1px silver;
         border-radius: 30px;
         margin-bottom: 100px;
+        display: none;
      
+    }
+
+
+    .poster-mobile{
+        background-image: url("../../public/shinePoster.png");
+        background-size:cover;
+        background-position: center;
+        height: 400px;
+        width: 92vw;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        margin: auto;
+        margin-top: 10rem;
+        border: solid 1px silver;
+        border-radius: 30px;
+        margin-bottom: 100px;
+   
+     
+    }
+
+
+    .poster-mobile-one{
+        width: 55%;
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        align-items: flex-end;
+        color: silver;
+       
+        padding-right: 15px;
+        margin-bottom: 100px;
+
+
+       >h3{
+     
+        margin: 0;
+        margin-top: 60px;
+       }
+        
+
+        >p{
+          line-height: 0.99em;
+          text-align: left;
+          font-size: 13px;
+        
+ 
+        }
+    }
+
+
+    .poster-content{
+        display: none;
     }
 }

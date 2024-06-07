@@ -38,7 +38,7 @@ const ShopOne = () => {
 
 <div className='shop-mobile'>
      
-     <a href='https://www.facebook.com'>
+     <a href='https://shop.shinesilver.store/collections/necklace-sets'>
      <h1>NECKLACE SETS</h1>
      </a>
       <div className='shop-one-mobile'> 

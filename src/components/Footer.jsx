@@ -5,7 +5,7 @@ import { FaInstagram } from "react-icons/fa6";
 import { FaWhatsapp } from "react-icons/fa";
 import { FaSquareXTwitter } from "react-icons/fa6";
 import { MdMailOutline } from "react-icons/md";
-
+import { FaFacebook } from 'react-icons/fa6';
 
 const Footer = () => {
   return (
@@ -13,8 +13,8 @@ const Footer = () => {
       <div className='one'>
         <h1>DISCOVER JWELLERY</h1>
         <ul>
-          <li><a href="#">Pendant Sets</a></li>
-          <li><a href="#">Necklace Sets</a></li>
+          <li><a href='https://shop.shinesilver.store/collections/pendant-sets'>Pendant Sets</a></li>
+          <li><a href="https://shop.shinesilver.store/collections/necklace-sets">Necklace Sets</a></li>
         </ul>
       </div>
 
@@ -73,6 +73,10 @@ const Footer = () => {
 
         <a href='https://x.com/shinesilver_925?s=11'> {/* Replace 'https://www.instagram.com/' with your Instagram URL */}
           <FaSquareXTwitter /> 
+        </a>
+
+        <a href='https://www.facebook.com/profile.php?id=61555017549608'> {/* Replace 'https://www.instagram.com/' with your Instagram URL */}
+          <FaFacebook  className='icons'/> 
         </a>
       </div>
       </div>

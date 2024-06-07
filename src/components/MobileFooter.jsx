@@ -27,9 +27,9 @@ const MobileFooter = () => {
             <>
           <div className="additional-links">
             <h1>PRODUCTS</h1>
-            <a href="/shop/product1">Necklace Sets</a>
-            <a href="/shop/product2">Pendant Sets</a>
-            <a href="/shop/product3">Catalog</a>
+            <a href="https://shop.shinesilver.store/collections/necklace-sets">Necklace Sets</a>
+            <a href="https://shop.shinesilver.store/collections/pendant-sets">Pendant Sets</a>
+            <a href="https://shop.shinesilver.store/collections/all">Catalogue</a>
           
           </div>
             <div className="additional-links">
@@ -55,7 +55,7 @@ const MobileFooter = () => {
           <FaXTwitter  className='icons'/> 
         </a>
 
-        <a href='https://x.com/shinesilver_925?s=11'> {/* Replace 'https://www.instagram.com/' with your Instagram URL */}
+        <a href='https://www.facebook.com/profile.php?id=61555017549608'> {/* Replace 'https://www.instagram.com/' with your Instagram URL */}
           <FaFacebook  className='icons'/> 
         </a>
 
