@@ -35,10 +35,11 @@ const Home = () => {
     <VideoMobile />
     
      <Shop />
-     <Hero /> 
+  
      <Slider />
    
      <ShopOne />
+     <Hero /> 
      <Poster />
      <Footer />
    
