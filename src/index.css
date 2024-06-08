@@ -247,6 +247,13 @@ button:focus-visible {
 }
 
 @media (max-width: 500px) {
+
+  .container {
+    max-width: 120rem;
+    padding: 4rem 1rem;
+    margin: 0 auto;
+    margin-top: 5rem;
+  }
   .swiper_container {
     height: 35rem;
     

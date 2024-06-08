@@ -11,7 +11,7 @@ const Hero = () => {
 
 
          <div className='hero-two'>
-            <p>Best-Selling Products</p>
+            <p>BEST SELLING PRODUCTS</p>
             <div className='hero-image-container'>
             <a href="https://shop.shinesilver.store/products/35">
              <img src= "best3.png" />

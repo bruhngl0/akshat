@@ -1,0 +1,21 @@
+.videoMobile-main{
+    display: none
+   
+    
+}
+
+.videoMobile-main-one{
+    display: none;
+   
+    
+}
+
+@media only screen and (max-width: 430px) {
+    .videoMobile-main{
+        display:block;
+    }
+
+    .videoMobile-main-one{
+        display:block;
+    }
+}

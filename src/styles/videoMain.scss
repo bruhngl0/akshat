@@ -1,0 +1,28 @@
+.video-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    
+}
+
+.video-main-one{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80vw;
+ 
+    border: 2px solid silver;
+   
+    
+}
+
+@media only screen and (max-width: 430px) {
+    .video-main{
+        display:none;
+    }
+
+    .video-main-one{
+        display:none;
+    }
+}
