@@ -6,7 +6,7 @@ const VideoMobile = () => {
     <div className='videoMobile-main'>
 
       <ReactPlayer 
-         url="kas.mp4" 
+         url="shines.mp4" 
          playing 
          width= "100%"
          height="100%"
