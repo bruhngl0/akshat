@@ -12,7 +12,7 @@ const VideoMobile = () => {
          height="100%"
          loop
          muted
-         controls={true}
+         controls={false}
          playsinline // Add this attribute
          autoPlay // Add this attribute
          className="videoMobile-main-one"
