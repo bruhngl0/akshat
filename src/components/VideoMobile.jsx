@@ -6,15 +6,16 @@ const VideoMobile = () => {
     <div className='videoMobile-main'>
 
       <ReactPlayer 
-        url="ratio.mp4" 
-        playing 
-        width= "100%"
-        height="100%"
-        loop
-        muted
-       
-        controls={true} // Set to true if you want to show controls
-        className = "videoMobile-main-one"
+         url="kas.mp4" 
+         playing 
+         width= "100%"
+         height="100%"
+         loop
+         muted
+         controls={true}
+         playsinline // Add this attribute
+         autoPlay // Add this attribute
+         className="videoMobile-main-one"
     
       />
     </div>
