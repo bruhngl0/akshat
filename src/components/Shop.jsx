@@ -54,7 +54,7 @@ const Shop = () => {
 
 
  <div className='shop-two-mobile'> 
- <a href="https://shop.shinesilver.store/products/26">
+ <a href="https://shop.shinesilver.store/products/26?variant=42307030679645">
     <img src = "shades12.png"></img>
     </a>
    <a href="https://shop.shinesilver.store/products/22">
@@ -66,7 +66,7 @@ const Shop = () => {
  <a href="https://shop.shinesilver.store/products/34">
     <img src = "shades14.png"></img>
     </a>
-    <a href="https://shop.shinesilver.store/products/31">
+    <a href="https://shop.shinesilver.store/products/26">
    <img src = "shades15.png"></img>
    </a>
  </div>
