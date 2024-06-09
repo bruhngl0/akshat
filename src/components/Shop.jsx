@@ -16,7 +16,7 @@ const Shop = () => {
         <a href= "https://shop.shinesilver.store/products/32">
         <img src = "shades11.png"></img>
         </a>
-        <a href= "https://shop.shinesilver.store/products/26">
+        <a href= "https://shop.shinesilver.store/products/26?variant=42307030679645">
         <img src = "shades12.png"></img>
         </a>
       </div>
