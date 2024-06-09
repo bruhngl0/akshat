@@ -14,7 +14,7 @@ function Landing() {
         <div className="landing">
             <div className="content">
                
-                <img src="lol.gif" alt="GIF" className="gif" />
+                <img src="dec.gif" alt="GIF" className="gif" />
             </div>
         <img src = "shine.png" className='shine'></img>
             <button className='land-btn' onClick={homeNav}>
