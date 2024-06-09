@@ -8,7 +8,7 @@ function Landing() {
     const navigate = useNavigate()
 
     function homeNav(){
-       navigate('/')
+       navigate('/home')
     }
     return (
         <div className="landing">
@@ -19,7 +19,7 @@ function Landing() {
         <img src = "shine.png" className='shine'></img>
             <button className='land-btn' onClick={homeNav}>
                 
-                 COMING SOON
+                 WEB-SHOP
                
             </button>
         </div>
