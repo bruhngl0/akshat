@@ -42,7 +42,7 @@ const Footer = () => {
         <h1>CONTACT US</h1>
         
         <div className='phone'>
-        <FaPhoneAlt />
+        <FaPhoneAlt className='icons'/>
         <span> <a href= "https://wa.me/918550022888">+91 8550022888 </a></span>
         </div>
 
@@ -53,7 +53,7 @@ const Footer = () => {
        </span>
       </div>
 
-        <div >
+        <div className='location'>
         <FaLocationArrow />
         <span>
           <a href="geo:12.9716,77.5946?q=Vijay Nagar, Bangalore 560040">Bangalore, 560040</a>
