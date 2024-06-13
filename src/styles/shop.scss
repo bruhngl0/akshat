@@ -11,7 +11,7 @@
 
   .shop a {
     text-decoration: none; /* Remove default underline */
-    color: inherit; /* Inherit the text color */
+    color: white; /* Inherit the text color */
   }
   
   .shop a:hover {
@@ -29,7 +29,7 @@
 
   .shop-neck a {
     text-decoration: none; /* Remove default underline */
-    color: inherit; /* Inherit the text color */
+    color: white; /* Inherit the text color */
   }
   
   .shop-neck a:hover {
@@ -140,6 +140,7 @@
   
       > a h1 {
         font-size: 20px;
+        color: white;
       }
     }
 
