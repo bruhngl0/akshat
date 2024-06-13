@@ -42,7 +42,7 @@ const Footer = () => {
         <h1>CONTACT US</h1>
         
         <div className='phone'>
-        <FaPhoneAlt className='icons'/>
+        <FaPhoneAlt />
         <span> <a href= "https://wa.me/918550022888">+91 8550022888 </a></span>
         </div>
 
