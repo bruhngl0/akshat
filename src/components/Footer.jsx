@@ -42,19 +42,19 @@ const Footer = () => {
         <h1>CONTACT US</h1>
         
         <div className='phone'>
-        <FaPhoneAlt className='icons'/>
+        <FaPhoneAlt />
         <span> <a href= "https://wa.me/918550022888">+91 8550022888 </a></span>
         </div>
 
         <div className='mail'>
-       <MdMailOutline className='icons'/>
+       <MdMailOutline />
        <span>
         <a href = "mailto:support@shinesilver.store">support@shinesilver.store</a>
        </span>
       </div>
 
         <div >
-        <FaLocationArrow  className='icons'/>
+        <FaLocationArrow />
         <span>
           <a href="geo:12.9716,77.5946?q=Vijay Nagar, Bangalore 560040">Bangalore, 560040</a>
         </span>
