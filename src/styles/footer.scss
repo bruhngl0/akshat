@@ -14,30 +14,35 @@
   
   .footer a:hover {
     text-decoration: underline; /* adding underline on hover */
+    color: silver;
   }
   
   /* Rest of your CSS styles remain unchanged */
   .one {
     > h1 {
       font-size: 20px;
+      color: white;
     }
   }
   
   .two {
     > h1 {
       font-size: 20px;
+      color: white;
     }
   }
   
   .three {
     > h1 {
       font-size: 20px;
+      color: white;
     }
   }
   
   .four {
     > h1 {
       font-size: 20px;
+      color: white;
     }
 
     >span{
@@ -67,13 +72,14 @@
   }
   
   .socialmedia a {
-    color: inherit;
+    color: white;
     text-decoration: none;
     
   }
   
   .socialmedia a:hover {
     opacity: 0.7; /* Example: reduce opacity on hover */
+    color: silver;
   }
   
   .socialmedia a svg {
