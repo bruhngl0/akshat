@@ -8,8 +8,8 @@ const Video = () => {
       <ReactPlayer 
         url="cropp.mp4" 
         playing 
-        width= "80%"
-        height="80%"
+        width= "100%"
+        height="100%"
         loop
         muted
        
